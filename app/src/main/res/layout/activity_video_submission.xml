@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title" />
+
+        <EditText
+            android:id="@+id/editTextThumbnailUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Thumbnail URL" />
+
+        <EditText
+            android:id="@+id/editTextVideoUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Video URL" />
+
+        <EditText
+            android:id="@+id/editTextBroadcaster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Broadcaster" />
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date" />
+
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description" />
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+</ScrollView>
+

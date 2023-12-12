@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="14sp"
+        android:paddingTop="2dp" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="4dp" />
+
+    <TextView
+        android:id="@+id/broadcaster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Broadcaster"
+        android:textSize="14sp"
+        android:paddingTop="2dp" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="14sp"
+        android:paddingTop="2dp" />
+
+    <!-- Like and Dislike Buttons -->
+<!--    <Button-->
+<!--        android:id="@+id/buttonLike"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Like" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/like_cnt"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Likes"-->
+<!--        android:textSize="14sp"-->
+<!--        android:paddingTop="2dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonDislike"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Dislike" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/dislike_cnt"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Dislikes"-->
+<!--        android:textSize="14sp"-->
+<!--        android:paddingTop="2dp" />-->
+
+</LinearLayout>
